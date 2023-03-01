@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repositories\\VueSocial\\API\\API.csproj": {}
+    "c:\\Repositories\\VueSocial\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Repositories\\VueSocial\\API\\API.csproj": {
+    "c:\\Repositories\\VueSocial\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositories\\VueSocial\\API\\API.csproj",
+        "projectUniqueName": "c:\\Repositories\\VueSocial\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Repositories\\VueSocial\\API\\API.csproj",
+        "projectPath": "c:\\Repositories\\VueSocial\\API\\API.csproj",
         "packagesPath": "C:\\Users\\muhta\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositories\\VueSocial\\API\\obj\\",
+        "outputPath": "c:\\Repositories\\VueSocial\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\muhta\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Repositories\\VueSocial\\Application\\Application.csproj": {
-                "projectPath": "C:\\Repositories\\VueSocial\\Application\\Application.csproj"
+              "c:\\Repositories\\VueSocial\\Application\\Application.csproj": {
+                "projectPath": "c:\\Repositories\\VueSocial\\Application\\Application.csproj"
               }
             }
           }
@@ -42,6 +42,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -70,14 +74,14 @@
         }
       }
     },
-    "C:\\Repositories\\VueSocial\\Application\\Application.csproj": {
+    "c:\\Repositories\\VueSocial\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositories\\VueSocial\\Application\\Application.csproj",
+        "projectUniqueName": "c:\\Repositories\\VueSocial\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Repositories\\VueSocial\\Application\\Application.csproj",
+        "projectPath": "c:\\Repositories\\VueSocial\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\muhta\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositories\\VueSocial\\Application\\obj\\",
+        "outputPath": "c:\\Repositories\\VueSocial\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\muhta\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -92,11 +96,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj"
+              "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj"
               },
-              "C:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj"
+              "c:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj": {
+                "projectPath": "c:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -130,14 +134,14 @@
         }
       }
     },
-    "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
+    "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\muhta\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositories\\VueSocial\\Domain\\obj\\",
+        "outputPath": "c:\\Repositories\\VueSocial\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\muhta\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -183,14 +187,14 @@
         }
       }
     },
-    "C:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj": {
+    "c:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "c:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj",
+        "projectPath": "c:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\muhta\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositories\\VueSocial\\Persistence\\obj\\",
+        "outputPath": "c:\\Repositories\\VueSocial\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\muhta\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -205,8 +209,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj"
+              "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj"
               }
             }
           }
@@ -220,6 +224,26 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
