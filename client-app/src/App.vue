@@ -1,22 +1,19 @@
 <!-- eslint-disable @typescript-eslint/no-unused-vars -->
 <template>
-  <div>
-    <RouterView />
-  </div>
+	<div>
+		<RouterView />
+	</div>
 </template>
 
 <script lang="ts">
 import { defineComponent, RouterView } from 'vue'
 
 export default defineComponent({
-  setup () {
-    
+	setup() {
 
-    return {}
-  }
+		return {} 
+	}
 })
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
