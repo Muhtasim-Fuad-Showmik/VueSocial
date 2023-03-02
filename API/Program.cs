@@ -14,6 +14,20 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+// Create a common service provider
+var serviceProvider = builder.Services.BuildServiceProvider();
+// Create a scope variable so that it gets disposed off when no longer needed
+using var scope = serviceProvider.CreateScope();
+try {
+    // Attempt to migrate the database from our context 
+    var context = serviceProvider.GetRequiredService<DataContext>();
+    context.Database.Migrate();
+} catch (Exception ex) {
+    // Log exceptions that have been caught in the preceding try block above
+    var logger = serviceProvider.GetRequiredService<ILogger<Program>>();
+    logger.LogError(ex, "An error occured during migration");
+}
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

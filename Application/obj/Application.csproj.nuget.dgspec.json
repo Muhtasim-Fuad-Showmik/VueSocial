@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj"
+              "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj"
               },
               "C:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj": {
                 "projectPath": "C:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj"
@@ -64,14 +64,14 @@
         }
       }
     },
-    "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
+    "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\muhta\\.nuget\\packages\\",
-        "outputPath": "c:\\Repositories\\VueSocial\\Domain\\obj\\",
+        "outputPath": "C:\\Repositories\\VueSocial\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\muhta\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -139,8 +139,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj"
+              "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj"
               }
             }
           }
