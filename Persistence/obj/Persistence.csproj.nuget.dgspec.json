@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj": {}
+    "C:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj": {}
   },
   "projects": {
     "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
@@ -57,14 +57,14 @@
         }
       }
     },
-    "c:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj": {
+    "C:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "c:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\muhta\\.nuget\\packages\\",
-        "outputPath": "c:\\Repositories\\VueSocial\\Persistence\\obj\\",
+        "outputPath": "C:\\Repositories\\VueSocial\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\muhta\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -108,6 +108,8 @@
               "version": "[7.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.3, )"
             }

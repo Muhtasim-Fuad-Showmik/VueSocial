@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gzu3bBwM5+3z+kow4CMM21xC7d3WUNnxESCJthBHHoWsRqrJiIKO78A+3kaRZSVlPJQAyf/+JsgaqvO6MC9i5w==",
+  "dgSpecHash": "gh4ZY2yrs5qH6dW0wuAFDn2rleXyEU1Pb3sPqi4slUhH9gJhGkMjClAgyTazeH99/0ofyVMIbIcD7N+rirU1QA==",
   "success": true,
-  "projectFilePath": "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj",
+  "projectFilePath": "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GGmlscJ6qQXUrdkVaZXFG4SJpCDk8VTc+K1/vxvZQudzwzsHC2uWwA6JsRNuBtb/i7C8D0P3N3mR4CrHRrKpsw==",
+  "dgSpecHash": "vc5nqLqh3RjpvX6T3UM9UbjUsom4RRE84uLt3LBn+YvFPVVOg+2+6wgIjGnmD0DUQ+bIg/Zn7TZyz21mD1fD6Q==",
   "success": true,
-  "projectFilePath": "c:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj",
+  "projectFilePath": "C:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\muhta\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\muhta\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
