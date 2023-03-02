@@ -21,7 +21,8 @@ using var scope = serviceProvider.CreateScope();
 try {
     // Attempt to migrate the database from our context 
     var context = serviceProvider.GetRequiredService<DataContext>();
-    context.Database.Migrate();
+    await context.Database.MigrateAsync();
+    await Seed.SeedData(context);
 } catch (Exception ex) {
     // Log exceptions that have been caught in the preceding try block above
     var logger = serviceProvider.GetRequiredService<ILogger<Program>>();
