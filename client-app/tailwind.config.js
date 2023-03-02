@@ -8,11 +8,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        "antiFlashWhite": "#edf2f4",
         "primary": "#ef233c",
-        "secondary": "#edf2f4",
-        "distinct": "#8d99ae",
-        "dark": "#2b2d42",
-        "darkPrimary": "#d90429",
+        "primaryDark": "#d90429",
+        "secondary": "#8d99ae",
+        "secondaryDark": "#2b2d42",
       }
     },
     fontFamily: {
