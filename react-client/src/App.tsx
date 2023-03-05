@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import logo from "./logo.svg";
-import "./App.css";
 import axios from "axios";
 
 function App() {
@@ -24,8 +22,15 @@ function App() {
     }, []);
 
     return (
-        <div className="App">
-            <header className="App-header">
+        <div>
+            <nav className="w-100 h-16 max-h-16 backdrop-blur-sm sticky top-0 z-50">
+                <div className="w-16 h-16 flex items-center">
+                    <img src="./Logo.png" alt="logo" className="w-100 h-100" />
+                    <span className="text-3xl font-bold text-primaryDark">React</span>
+                    <span className="text-3xl">Social</span>
+                </div>
+            </nav>
+            <div className="">
                 <h1>Activites</h1>
                 {activities.length && (
                     <ul>
@@ -34,7 +39,7 @@ function App() {
                         ))}
                     </ul>
                 )}
-            </header>
+            </div>
         </div>
     );
 }
