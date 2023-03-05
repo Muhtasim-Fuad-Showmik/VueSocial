@@ -23,17 +23,10 @@ getActivities();
 </script>
 
 <template>
-	<main>
-		<nav class="w-100 h-16 max-h-16 backdrop-blur-sm sticky top-0 z-50">
-			<div class="w-16 h-16 flex items-center">
-				<img src="/Logo.png" alt="logo" class="w-100 h-100" />
-				<span class="text-3xl font-bold text-primaryDark">Vue</span>
-				<span class="text-3xl">Social</span>
-			</div>
-		</nav>
-		<h1>Activites</h1>
+	<main>	
+		<h1 class="font-bold text-2xl mb-4">Activites</h1>
 		<ul>
-			<li v-for="activity in activites" :key="activity.id">{{ activity.title }}</li>
+			<li class="mb-2" v-for="activity in activites" :key="activity.id">{{ activity.title }}</li>
 		</ul>
 	</main>
 </template>

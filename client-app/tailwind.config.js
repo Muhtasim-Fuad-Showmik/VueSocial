@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         "antiFlashWhite": "#edf2f4",
+        "orangeSoda": "#F45C43",
         "primary": "#ef233c",
         "primaryDark": "#d90429",
         "secondary": "#8d99ae",
