@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {}
+    "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
+    "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\muhta\\.nuget\\packages\\",
-        "outputPath": "c:\\Repositories\\VueSocial\\Domain\\obj\\",
+        "outputPath": "C:\\Repositories\\VueSocial\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\muhta\\AppData\\Roaming\\NuGet\\NuGet.Config"
