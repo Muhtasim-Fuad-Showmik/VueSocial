@@ -8,7 +8,6 @@ using Microsoft.Extensions.Logging;
 using Persistence;
 using Domain;
 using Microsoft.EntityFrameworkCore;
-using MediatR;
 using Application.Activities;
 
 namespace API.Controllers
@@ -16,11 +15,9 @@ namespace API.Controllers
     public class ActivitiesController : BaseApiController
     {
         private readonly ILogger<ActivitiesController> _logger;
-        private readonly IMediator _mediator;
 
-        public ActivitiesController(ILogger<ActivitiesController> logger, IMediator mediator)
+        public ActivitiesController(ILogger<ActivitiesController> logger)
         {
-            _mediator = mediator;
             _logger = logger;
         }
 
@@ -28,7 +25,7 @@ namespace API.Controllers
         [HttpGet]
         public async Task<ActionResult<List<Domain.Activity>>> GetActivities()
         {
-            return await _mediator.Send(new List.Query());
+            return await Mediator.Send(new List.Query());
         }
 
         // Get a specific activity using a specified id for the required acitvity.
