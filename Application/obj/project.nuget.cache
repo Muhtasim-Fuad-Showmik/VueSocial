@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "5uVLPNSDlmN4W2KGae1bYqfW/w5SN30kaFB9XY4ql2HRoqAIL0SkFWWlJ2iTEfMEBdHYnVLU5Ql1unXQqoQRBg==",
+  "dgSpecHash": "VPPAbnLWD6xduUyhugDd+ku92OK0VZRfwporB+5kCmTYpYajPMTn96UdWdcqG/notkPABHmxOMjY0SjerqS8aQ==",
   "success": true,
   "projectFilePath": "C:\\Repositories\\VueSocial\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\muhta\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\muhta\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\muhta\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\muhta\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\muhta\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\muhta\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\muhta\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\muhta\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",

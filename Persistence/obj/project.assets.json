@@ -3874,8 +3874,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj"
+            "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
+              "projectPath": "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj"
             }
           }
         }

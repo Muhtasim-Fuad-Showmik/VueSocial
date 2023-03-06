@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj"
+              "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj"
               },
               "C:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj": {
                 "projectPath": "C:\\Repositories\\VueSocial\\Persistence\\Persistence.csproj"
@@ -44,6 +44,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -64,14 +70,14 @@
         }
       }
     },
-    "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
+    "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\muhta\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositories\\VueSocial\\Domain\\obj\\",
+        "outputPath": "c:\\Repositories\\VueSocial\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\muhta\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -139,8 +145,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Repositories\\VueSocial\\Domain\\Domain.csproj"
+              "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Repositories\\VueSocial\\Domain\\Domain.csproj"
               }
             }
           }

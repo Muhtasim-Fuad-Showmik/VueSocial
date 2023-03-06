@@ -8,32 +8,34 @@ using Microsoft.Extensions.Logging;
 using Persistence;
 using Domain;
 using Microsoft.EntityFrameworkCore;
+using MediatR;
+using Application.Activities;
 
 namespace API.Controllers
 {
     public class ActivitiesController : BaseApiController
     {
         private readonly ILogger<ActivitiesController> _logger;
-        private readonly DataContext _context;
+        private readonly IMediator _mediator;
 
-        public ActivitiesController(ILogger<ActivitiesController> logger, DataContext context)
+        public ActivitiesController(ILogger<ActivitiesController> logger, IMediator mediator)
         {
+            _mediator = mediator;
             _logger = logger;
-            _context = context;
         }
 
         // Get all acitivities from the data context
         [HttpGet]
         public async Task<ActionResult<List<Domain.Activity>>> GetActivities()
         {
-            return await _context.Activities.ToListAsync();
+            return await _mediator.Send(new List.Query());
         }
 
         // Get a specific activity using a specified id for the required acitvity.
         [HttpGet("{id}")]
         public async Task<ActionResult<Domain.Activity>> GetActivity(Guid id)
         {
-            return await _context.Activities.FindAsync(id);
+            return Ok();
         }
     }
 }
