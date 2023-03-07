@@ -20,6 +20,7 @@ namespace API.Extensions
             });
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
+            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             services.AddCors(policyBuilder =>
                 policyBuilder.AddPolicy("CorsPolicy", policy =>
                     policy.WithOrigins("http://localhost:3000","http://127.0.0.1:5173")
