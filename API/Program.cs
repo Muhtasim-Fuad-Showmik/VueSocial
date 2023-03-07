@@ -2,6 +2,8 @@ using Persistence;
 using Microsoft.EntityFrameworkCore;
 using MediatR;
 using Application.Activities;
+using AutoMapper;
+using Application.Core;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +22,7 @@ builder.Services.AddCors(policyBuilder =>
             .AllowAnyHeader())
 );
 builder.Services.AddMediatR(typeof(List.Handler).Assembly);
+builder.Services.AddAutoMapper(typeof(MappingProfiles).Assembly);
 
 var app = builder.Build();
 
@@ -47,7 +50,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors("CorsPolicy");
 
-// app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
