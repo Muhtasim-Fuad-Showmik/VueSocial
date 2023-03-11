@@ -32,13 +32,14 @@ try {
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    // Access by heading to [API URL]/swagger/index.html
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
 app.UseCors("CorsPolicy");
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

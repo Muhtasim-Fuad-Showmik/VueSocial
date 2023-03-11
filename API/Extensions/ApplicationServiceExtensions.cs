@@ -23,8 +23,8 @@ namespace API.Extensions
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             services.AddCors(policyBuilder =>
                 policyBuilder.AddPolicy("CorsPolicy", policy =>
-                    policy.WithOrigins("http://localhost:3000","http://127.0.0.1:5173")
-                        .AllowAnyHeader()
+                    policy.AllowAnyOrigin()
+                        .AllowAnyMethod()
                         .AllowAnyHeader())
             );
             services.AddMediatR(typeof(List.Handler).Assembly);
