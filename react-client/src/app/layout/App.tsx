@@ -1,22 +1,13 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { Activity } from "../models/activity";
 
 function App() {
-    interface Activity {
-        id: string;
-        title: string;
-        description: string;
-        date: string;
-        category: string;
-        city: string;
-        venue: string;
-    }
-    const initialActivities: Activity[] = [];
-    const [activities, setActivities] = useState(initialActivities);
+    const [activities, setActivities] = useState<Activity[]>([]);
     const api = "http://localhost:5000";
 
     useEffect(() => {
-        axios.get(`${api}/api/activities`).then((response) => {
+        axios.get<Activity[]>(`${api}/api/activities`).then((response) => {
             setActivities(response.data);
         });
     }, []);
@@ -36,7 +27,7 @@ function App() {
                     <h1 className="font-bold text-2xl mb-4">Activites</h1>
                     {activities.length && (
                         <ul>
-                            {activities.map((activity: Activity) => (
+                            {activities.map((activity) => (
                                 <li className="mb-2" key={activity.id}>{activity.title}</li>
                             ))}
                         </ul>
