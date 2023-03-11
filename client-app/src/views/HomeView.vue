@@ -1,21 +1,11 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import axios from 'axios';
+import type { Activity } from "@/models/activity";
 
-interface Activity {
-	id: string,
-	title: string,
-	description: string,
-	date: string,
-	category: string,
-	city: string,
-	venue: string
-}
-
-const initialActivities: Activity[] = [];
-const activites = ref(initialActivities);
+const activites = ref<Activity[]>([]);
 const getActivities = async () => {
-	axios.get("http://localhost:5000/api/activities").then(response => {
+	axios.get<Activity[]>("http://localhost:5000/api/activities").then(response => {
 		activites.value = response.data;
 	});
 };
