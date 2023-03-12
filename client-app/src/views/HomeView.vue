@@ -14,8 +14,7 @@ getActivities();
 </script>
 
 <template>
-	<main>	
-		<h1 class="font-bold text-2xl mb-4">Activites</h1>
+	<main>
 		<ActivityDashboard :activities="activities" />
 	</main>
 </template>

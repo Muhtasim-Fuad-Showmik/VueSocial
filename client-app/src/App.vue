@@ -3,7 +3,7 @@
 	<div class="h-screen">
 		<NavBar />
 		<div class="bg-gradient-to-r from-primary to-orangeSoda pl-10 pb-10 h-[calc(100vh-64px)]">
-			<div class="bg-white h-full p-10 rounded">
+			<div class="bg-white h-full p-10 rounded overflow-auto">
 				<RouterView />
 			</div>
 		</div>
