@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Activity } from "../models/activity";
 import NavBar from "./NavBar";
+import ActivityDashboard from "../../features/activities/dashboard/ActivityDashboard";
 
 function App() {
     const [activities, setActivities] = useState<Activity[]>([]);
@@ -20,13 +21,7 @@ function App() {
                 <div className="bg-white h-full p-10 rounded">
                     {/* Main Content */}
                     <h1 className="font-bold text-2xl mb-4">Activites</h1>
-                    {activities.length && (
-                        <ul>
-                            {activities.map((activity) => (
-                                <li className="mb-2" key={activity.id}>{activity.title}</li>
-                            ))}
-                        </ul>
-                    )}
+                    <ActivityDashboard activities={activities} />
                 </div>
             </div>
         </div>
