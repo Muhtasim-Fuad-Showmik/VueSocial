@@ -2,11 +2,12 @@
 import { ref } from "vue";
 import axios from 'axios';
 import type { Activity } from "@/models/activity";
+import ActivityDashboard from "@/components/activities/ActivityDashboard.vue";
 
-const activites = ref<Activity[]>([]);
+const activities = ref<Activity[]>([]);
 const getActivities = async () => {
 	axios.get<Activity[]>("http://localhost:5000/api/activities").then(response => {
-		activites.value = response.data;
+		activities.value = response.data;
 	});
 };
 getActivities();
@@ -15,8 +16,6 @@ getActivities();
 <template>
 	<main>	
 		<h1 class="font-bold text-2xl mb-4">Activites</h1>
-		<ul>
-			<li class="mb-2" v-for="activity in activites" :key="activity.id">{{ activity.title }}</li>
-		</ul>
+		<ActivityDashboard :activities="activities" />
 	</main>
 </template>
