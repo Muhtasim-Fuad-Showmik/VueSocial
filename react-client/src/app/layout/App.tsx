@@ -18,9 +18,8 @@ function App() {
         <div className="h-screen">
             <NavBar />
             <div className="bg-gradient-to-r from-primary to-orangeSoda pl-10 pb-10 h-[calc(100vh-64px)]">
-                <div className="bg-white h-full p-10 rounded">
+                <div className="bg-white h-full p-10 rounded overflow-auto">
                     {/* Main Content */}
-                    <h1 className="font-bold text-2xl mb-4">Activites</h1>
                     <ActivityDashboard activities={activities} />
                 </div>
             </div>
