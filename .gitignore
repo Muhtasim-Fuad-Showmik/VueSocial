@@ -459,17 +459,3 @@ $RECYCLE.BIN/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-
-Application/obj/Application.csproj.nuget.dgspec.json
-Application/obj/Application.csproj.nuget.dgspec.json
-Application/obj/Application.csproj.nuget.g.props
-Application/obj/Application.csproj.nuget.g.props
-Application/obj/project.assets.json
-Application/obj/project.nuget.cache
-Domain/obj/Domain.csproj.nuget.g.props
-Domain/obj/project.assets.json
-Domain/obj/project.nuget.cache
-Persistence/obj/Persistence.csproj.nuget.dgspec.json
-Persistence/obj/Persistence.csproj.nuget.g.props
-Persistence/obj/project.assets.json
-Persistence/obj/project.nuget.cache
