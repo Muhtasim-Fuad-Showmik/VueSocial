@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Activity } from "../models/activity";
+import NavBar from "./NavBar";
 
 function App() {
     const [activities, setActivities] = useState<Activity[]>([]);
@@ -14,13 +15,7 @@ function App() {
 
     return (
         <div className="h-screen">
-            <nav className="w-full h-16 max-h-16 px-12 backdrop-blur-sm sticky top-0 z-50 shadow-md">
-                <div className="w-16 h-16 flex items-center">
-                    <img src="./Logo.png" alt="logo" className="w-full h-full" />
-                    <span className="text-3xl font-bold text-primaryDark">React</span>
-                    <span className="text-3xl">Social</span>
-                </div>
-            </nav>
+            <NavBar />
             <div className="bg-gradient-to-r from-primary to-orangeSoda pl-10 pb-10 h-[calc(100vh-64px)]">
                 <div className="bg-white h-full p-10 rounded">
                     {/* Main Content */}
