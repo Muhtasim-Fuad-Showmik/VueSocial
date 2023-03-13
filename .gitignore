@@ -417,11 +417,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# Databases created for the project
-**/*.db
-**/*.db-shm
-**/*.db-wal
-
 # content below from: https://github.com/github/gitignore/blob/master/Global/Windows.gitignore
 # Windows thumbnail cache files
 Thumbs.db
